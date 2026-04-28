@@ -5,8 +5,6 @@ void inBang(FILE *out, GiaSu ds[], int n) {
     fprintf(out, "+----+----------------------+----------+--------------+--------+--------------+------------+----------------------+--------+\n");
     fprintf(out, "| ID | Ten                  | Mon      | Khu vuc      | Phi    | Trinh do     | Danh gia   | Email               | Diem   |\n");
     fprintf(out, "+----+----------------------+----------+--------------+--------+--------------+------------+----------------------+--------+\n");
-
-    // Data
     for (int i = 0; i < n; i++) {
         fprintf(out, "| %-2d | %-20s | %-8s | %-12s | %-6d | %-12s | %-10.1f | %-20s | %-6d |\n",
             ds[i].id,
@@ -19,8 +17,6 @@ void inBang(FILE *out, GiaSu ds[], int n) {
             ds[i].email,
             ds[i].diem);
     }
-
-    // Footer
     fprintf(out, "+----+----------------------+----------+--------------+--------+--------------+------------+----------------------+--------+\n");
 }
 void inThongTin(GiaSu ds[], int n) {
@@ -29,14 +25,9 @@ void inThongTin(GiaSu ds[], int n) {
         printf("Khong mo duoc file\n");
         return;
     }
-
-    // In ra màn hình
     printf("\nDANH SACH GIA SU:\n");
     inBang(stdout, ds, n);
-
-    // Ghi vào file
     fprintf(f, "DANH SACH GIA SU:\n");
     inBang(f, ds, n);
-
     fclose(f);
 }
