@@ -1,4 +1,3 @@
-#include<stdio.h>
 void Permute(GiaSu *x, GiaSu *y) {
     GiaSu temp = *x;
     *x = *y;
