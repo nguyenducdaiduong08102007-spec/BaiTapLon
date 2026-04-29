@@ -1,6 +1,6 @@
 void inBang(FILE *out, GiaSu ds[], int n) {
     fprintf(out, "+----+----------------------+----------+--------------+--------+--------------+------------+----------------------+--------+\n");
-    fprintf(out, "| ID | Ten                  | Mon      | Khu vuc      | Phi    | Trinh do     | Danh gia   | Email               | Diem   |\n");
+    fprintf(out, "| ID | Ten                  | Mon      | Khu vuc      | Phi    | Trinh do     | Danh gia   | Email                | SDT    |\n");
     fprintf(out, "+----+----------------------+----------+--------------+--------+--------------+------------+----------------------+--------+\n");
     for (int i = 0; i < n; i++) {
         fprintf(out, "| %-2d | %-20s | %-8s | %-12s | %-6d | %-12s | %-10.1f | %-20s | %-6d |\n",
@@ -12,7 +12,7 @@ void inBang(FILE *out, GiaSu ds[], int n) {
             ds[i].trinhDo,
             ds[i].danhGia,
             ds[i].email,
-            ds[i].diem);
+            ds[i].sdt);
     }
     fprintf(out, "+----+----------------------+----------+--------------+--------+--------------+------------+----------------------+--------+\n");
 }
