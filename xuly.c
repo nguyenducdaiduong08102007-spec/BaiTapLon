@@ -36,7 +36,7 @@ int timChuoi(const char* chuoi_goc, const char* chuoi_tim) {
     if (strlen(chuoi_tim) == 0) return 1;
     char goc[100], tim[100];
     strcpy(goc, chuoi_goc); strcpy(tim, chuoi_tim);
-    _strlwr(goc); _strlwr(tim);
+    my_strlwr(goc); my_strlwr(tim);
     return strstr(goc, tim) != NULL;
 }
 
@@ -44,7 +44,7 @@ int timKhuVucChuan(const char* chuoi_goc, const char* chuoi_tim) {
     if (strlen(chuoi_tim) == 0) return 1;
     char goc[100], tim[100];
     strcpy(goc, chuoi_goc); strcpy(tim, chuoi_tim);
-    _strlwr(goc); _strlwr(tim);
+    my_strlwr(goc); my_strlwr(tim);
     char *ptr = strstr(goc, tim);
     if (ptr != NULL) {
         int do_dai = strlen(tim);
