@@ -1,0 +1,105 @@
+1001, Tran Thanh Ha, Toan, Quan 1, 4.3, Dai hoc, 9010001001, ha1@gmail.com, Thu 7 - CN, 160000
+1002, Pham Duc Tuan, Ly, Quan 2, 4.8, Dai hoc, 9010001002, tuan2@gmail.com, Thu 5 - Thu 6, 170000
+1300, Pham Duc Tien, Hoa, Quan 3, 4.8, Cao hoc, 9010001003, tien3@gmail.com, Cac buoi toi, 190000
+1004, Pham Minh Chau, Anh, Quan 4, 4.3, Cao hoc, 9010001004, chau4@gmail.com, Thu 2 - 4 - 6, 200000
+1005, Do Hong Viet, Toan, Quan 5, 4.7, Thac si, 9010001005, viet5@gmail.com, Thu 2 - Thu 3, 210000
+1006, Vu Duc Trang, Ly, Quan 6, 4.7, Dai hoc, 9010001006, trang6@gmail.com, Thu 3 - 5 - 7, 170000
+1007, Vu Minh Phat, Hoa, Quan 7, 4.2, Dai hoc, 9010001007, phat7@gmail.com, Thu 5 - Thu 6, 150000
+1008, Duong Thi Linh, Anh, Quan 8, 4.8, Cao hoc, 9010001008, linh8@gmail.com, Thu 3 - 5 - 7, 200000
+1009, Bui Minh Khoa, Toan, Quan 9, 4.7, Cao hoc, 9010001009, khoa9@gmail.com, Thu 3 - 5 - 7, 200000
+1010, Hoang Ngoc My, Ly, Quan 10, 4.6, Cao hoc, 9010001010, my10@gmail.com, Thu 2 - 4 - 6, 180000
+1111, Ngo Huu Tien, Hoa, Quan 11, 4.0, Cao hoc, 9010001011, tien11@gmail.com, Thu 2 - 4 - 6, 200000
+1012, Ngo Thi Tuan, Anh, Quan 12, 4.2, Cao hoc, 9010001012, tuan12@gmail.com, Thu 2 - Thu 3, 200000
+1013, Hoang Quang Giang, Toan, Quan 1, 4.2, Thac si, 9010001013, giang13@gmail.com, Cac buoi toi, 230000
+1014, Le Thu Sang, Ly, Quan 2, 4.0, Thac si, 9010001014, sang14@gmail.com, Thu 5 - Thu 6, 220000
+1015, Vo Quang Viet, Hoa, Quan 3, 4.3, Cao hoc, 9010001015, viet15@gmail.com, Thu 3 - 5 - 7, 200000
+1016, Huynh Ngoc Binh, Anh, Quan 4, 4.3, Thac si, 9010001016, binh16@gmail.com, Thu 3 - 5 - 7, 230000
+1017, Pham Thanh Trang, Toan, Quan 5, 4.5, Dai hoc, 9010001017, trang17@gmail.com, Thu 3 - 5 - 7, 150000
+1018, Hoang Thanh Ha, Ly, Quan 6, 4.0, Thac si, 9010001018, ha18@gmail.com, Thu 5 - Thu 6, 220000
+1019, Ngo Huu Cu, Hoa, Quan 7, 4.1, Cao hoc, 9010001019, cu19@gmail.com, Thu 2 - 4 - 6, 180000
+1200, Duong Hong Hoa, Anh, Quan 8, 4.6, Thac si, 9010001020, hoa20@gmail.com, Cac buoi toi, 210000
+1021, Huynh Thu Xuan, Toan, Quan 9, 4.5, Cao hoc, 9010001021, xuan21@gmail.com, Thu 2 - 4 - 6, 200000
+1022, Tran Thanh Anh, Ly, Quan 10, 4.8, Dai hoc, 9010001022, anh22@gmail.com, Thu 2 - Thu 3, 150000
+1023, Le Thu My, Hoa, Quan 11, 4.6, Dai hoc, 9010001023, my23@gmail.com, Thu 5 - Thu 6, 150000
+1024, Huynh Huu Quyen, Anh, Quan 12, 4.1, Thac si, 9010001024, quyen24@gmail.com, Thu 3 - 5 - 7, 210000
+1025, Phan Thanh Son, Toan, Quan 1, 4.7, Thac si, 9010001025, son25@gmail.com, Thu 2 - 4 - 6, 220000
+1026, Tran Van Nhi, Ly, Quan 2, 4.8, Cao hoc, 9010001026, nhi26@gmail.com, Cac buoi toi, 190000
+1027, Hoang Huu Son, Hoa, Quan 3, 4.7, Thac si, 9010001027, son27@gmail.com, Thu 7 - CN, 230000
+1028, Ly Thanh Phat, Anh, Quan 4, 4.6, Cao hoc, 9010001028, phat28@gmail.com, Cac buoi toi, 200000
+1029, Nguyen Minh Nam, Toan, Quan 5, 4.7, Dai hoc, 9010001029, nam29@gmail.com, Thu 3 - 5 - 7, 170000
+1030, Phan Cong Bich, Ly, Quan 6, 4.5, Thac si, 9010001030, bich30@gmail.com, Thu 7 - CN, 230000
+1031, Tran Van Duc, Hoa, Quan 7, 4.2, Thac si, 9010001031, duc31@gmail.com, Thu 2 - Thu 3, 220000
+1032, Hoang Quang Tuan, Anh, Quan 8, 4.2, Cao hoc, 9010001032, tuan32@gmail.com, Thu 2 - 4 - 6, 190000
+1033, Duong Thu Quyen, Toan, Quan 9, 4.5, Thac si, 9010001033, quyen33@gmail.com, Cac buoi toi, 230000
+1034, Ly Hong Trang, Ly, Quan 10, 4.2, Dai hoc, 9010001034, trang34@gmail.com, Thu 7 - CN, 170000
+1035, Ly Thi Anh, Hoa, Quan 11, 4.6, Dai hoc, 9010001035, anh35@gmail.com, Thu 2 - 4 - 6, 150000
+1036, Tran Ngoc Binh, Anh, Quan 12, 4.1, Dai hoc, 9010001036, binh36@gmail.com, Thu 3 - 5 - 7, 150000
+1037, Duong Thu My, Toan, Quan 1, 4.6, Cao hoc, 9010001037, my37@gmail.com, Thu 2 - Thu 3, 190000
+1038, Dang Phuong Trang, Ly, Quan 2, 4.4, Thac si, 9010001038, trang38@gmail.com, Thu 2 - 4 - 6, 230000
+1039, Tran Minh Long, Hoa, Quan 3, 4.6, Thac si, 9010001039, long39@gmail.com, Thu 2 - 4 - 6, 230000
+1040, Hoang Ngoc An, Anh, Quan 4, 4.5, Cao hoc, 9010001040, an40@gmail.com, Thu 5 - Thu 6, 200000
+1041, Dang Quang Phat, Toan, Quan 5, 4.4, Cao hoc, 9010001041, phat41@gmail.com, Cac buoi toi, 180000
+1042, Tran Hong Long, Ly, Quan 6, 4.3, Cao hoc, 9010001042, long42@gmail.com, Thu 2 - Thu 3, 190000
+1043, Phan Ngoc Dung, Hoa, Quan 7, 4.0, Thac si, 9010001043, dung43@gmail.com, Thu 3 - 5 - 7, 230000
+1044, Le Duc Nam, Anh, Quan 8, 4.6, Cao hoc, 9010001044, nam44@gmail.com, Thu 5 - Thu 6, 190000
+1045, Tran Minh An, Toan, Quan 9, 4.2, Thac si, 9010001045, an45@gmail.com, Thu 2 - Thu 3, 230000
+1046, Duong Thi Em, Ly, Quan 10, 4.2, Dai hoc, 9010001046, em46@gmail.com, Thu 2 - 4 - 6, 170000
+1047, Vu Phuong Uyen, Hoa, Quan 11, 4.6, Cao hoc, 9010001047, uyen47@gmail.com, Cac buoi toi, 190000
+1048, Hoang Phuong Dat, Anh, Quan 12, 4.5, Dai hoc, 9010001048, dat48@gmail.com, Thu 5 - Thu 6, 170000
+1049, Ho Phuong Khoa, Toan, Quan 1, 4.6, Thac si, 9010001049, khoa49@gmail.com, Thu 2 - Thu 3, 210000
+1050, Ly Thanh Mai, Ly, Quan 2, 4.4, Cao hoc, 9010001050, mai50@gmail.com, Thu 3 - 5 - 7, 200000
+1051, Phan Hong Minh, Hoa, Quan 3, 4.6, Dai hoc, 9010001051, minh51@gmail.com, Thu 2 - 4 - 6, 150000
+1052, Phan Thanh Chau, Anh, Quan 4, 4.8, Thac si, 9010001052, chau52@gmail.com, Cac buoi toi, 210000
+1053, Vu Thu Xuan, Toan, Quan 5, 4.7, Thac si, 9010001053, xuan53@gmail.com, Thu 7 - CN, 220000
+1054, Ly Thi Hoa, Ly, Quan 6, 4.6, Cao hoc, 9010001054, hoa54@gmail.com, Thu 7 - CN, 200000
+1055, Vu Quang Xuan, Hoa, Quan 7, 4.6, Cao hoc, 9010001055, xuan55@gmail.com, Thu 7 - CN, 190000
+1056, Do Thu Cu, Anh, Quan 8, 4.4, Dai hoc, 9010001056, cu56@gmail.com, Thu 3 - 5 - 7, 160000
+1057, Pham Thi Phuong, Toan, Quan 9, 4.7, Thac si, 9010001057, phuong57@gmail.com, Thu 3 - 5 - 7, 220000
+1058, Vu Minh Uyen, Ly, Quan 10, 4.5, Thac si, 9010001058, uyen58@gmail.com, Thu 3 - 5 - 7, 220000
+1059, Phan Thanh Dao, Hoa, Quan 11, 4.8, Cao hoc, 9010001059, dao59@gmail.com, Thu 2 - Thu 3, 200000
+1060, Hoang Van Trang, Anh, Quan 12, 4.8, Thac si, 9010001060, trang60@gmail.com, Thu 7 - CN, 210000
+1061, Le Thanh Khanh, Toan, Quan 1, 4.1, Dai hoc, 9010001061, khanh61@gmail.com, Thu 3 - 5 - 7, 150000
+1062, Hoang Hong Giang, Ly, Quan 2, 4.2, Thac si, 9010001062, giang62@gmail.com, Thu 5 - Thu 6, 210000
+1063, Ly Thi Ha, Hoa, Quan 3, 4.5, Thac si, 9010001063, ha63@gmail.com, Thu 3 - 5 - 7, 220000
+1064, Ly Thanh Dat, Anh, Quan 4, 4.7, Cao hoc, 9010001064, dat64@gmail.com, Thu 7 - CN, 190000
+1065, Bui Huu Tien, Toan, Quan 5, 4.8, Dai hoc, 9010001065, tien65@gmail.com, Thu 3 - 5 - 7, 170000
+1066, Vo Huu Oanh, Ly, Quan 6, 4.6, Thac si, 9010001066, oanh66@gmail.com, Thu 2 - Thu 3, 210000
+1067, Phan Thanh Tien, Hoa, Quan 7, 4.2, Thac si, 9010001067, tien67@gmail.com, Cac buoi toi, 230000
+1068, Hoang Phuong My, Anh, Quan 8, 4.1, Cao hoc, 9010001068, my68@gmail.com, Cac buoi toi, 200000
+1069, Ngo Thanh Yen, Toan, Quan 9, 4.2, Cao hoc, 9010001069, yen69@gmail.com, Thu 3 - 5 - 7, 200000
+1070, Ho Hong Dung, Ly, Quan 10, 4.1, Thac si, 9010001070, dung70@gmail.com, Thu 2 - Thu 3, 210000
+1071, Tran Van Viet, Hoa, Quan 11, 4.8, Thac si, 9010001071, viet71@gmail.com, Thu 3 - 5 - 7, 210000
+1072, Vu Thi Cuong, Anh, Quan 12, 4.4, Thac si, 9010001072, cuong72@gmail.com, Thu 7 - CN, 210000
+1073, Ngo Phuong Yen, Toan, Quan 1, 4.2, Dai hoc, 9010001073, yen73@gmail.com, Thu 2 - 4 - 6, 160000
+1074, Ho Ngoc Long, Ly, Quan 2, 4.6, Thac si, 9010001074, long74@gmail.com, Cac buoi toi, 230000
+1075, Le Thanh Vinh, Hoa, Quan 3, 4.8, Thac si, 9010001075, vinh75@gmail.com, Thu 2 - 4 - 6, 220000
+1076, Pham Huu Phat, Anh, Quan 4, 4.6, Dai hoc, 9010001076, phat76@gmail.com, Thu 2 - 4 - 6, 160000
+1077, Vo Thanh Khoa, Toan, Quan 5, 4.6, Dai hoc, 9010001077, khoa77@gmail.com, Thu 3 - 5 - 7, 150000
+1078, Huynh Thu Oanh, Ly, Quan 6, 4.1, Thac si, 9010001078, oanh78@gmail.com, Thu 3 - 5 - 7, 210000
+1079, Tran Hong Nhi, Hoa, Quan 7, 4.6, Cao hoc, 9010001079, nhi79@gmail.com, Thu 2 - Thu 3, 180000
+1080, Phan Thanh Anh, Anh, Quan 8, 4.7, Dai hoc, 9010001080, anh80@gmail.com, Thu 2 - 4 - 6, 170000
+1081, Vo Phuong Oanh, Toan, Quan 9, 4.7, Cao hoc, 9010001081, oanh81@gmail.com, Thu 7 - CN, 200000
+1082, Tran Thanh Quang, Ly, Quan 10, 4.4, Thac si, 9010001082, quang82@gmail.com, Thu 2 - 4 - 6, 210000
+1083, Phan Van Viet, Hoa, Quan 11, 4.2, Thac si, 9010001083, viet83@gmail.com, Thu 2 - Thu 3, 210000
+1084, Do Thanh Bich, Anh, Quan 12, 4.7, Thac si, 9010001084, bich84@gmail.com, Thu 2 - Thu 3, 210000
+1085, Ho Minh Tien, Toan, Quan 1, 4.5, Thac si, 9010001085, tien85@gmail.com, Thu 2 - Thu 3, 230000
+1086, Tran Cong Yen, Ly, Quan 2, 4.1, Thac si, 9010001086, yen86@gmail.com, Thu 2 - Thu 3, 230000
+1087, Nguyen Phuong Minh, Hoa, Quan 3, 4.4, Thac si, 9010001087, minh87@gmail.com, Thu 5 - Thu 6, 220000
+1088, Dang Hong Quang, Anh, Quan 4, 4.2, Cao hoc, 9010001088, quang88@gmail.com, Thu 7 - CN, 180000
+1089, Vu Van Giang, Toan, Quan 5, 4.8, Dai hoc, 9010001089, giang89@gmail.com, Cac buoi toi, 170000
+1090, Vo Minh Phuc, Ly, Quan 6, 4.9, Cao hoc, 9010001090, phuc90@gmail.com, Thu 3 - 5 - 7, 200000
+1910, Nguyen Ngoc Sang, Hoa, Quan 7, 4.4, Cao hoc, 9010001091, sang91@gmail.com, Thu 2 - Thu 3, 200000
+1092, Ho Quang Khang, Anh, Quan 8, 4.4, Dai hoc, 9010001092, khang92@gmail.com, Thu 3 - 5 - 7, 160000
+1093, Hoang Huu Hoa, Toan, Quan 9, 4.2, Thac si, 9010001093, hoa93@gmail.com, Thu 5 - Thu 6, 230000
+1094, Le Thi Binh, Ly, Quan 10, 4.4, Dai hoc, 9010001094, binh94@gmail.com, Thu 2 - Thu 3, 170000
+1095, Phan Thu Duc, Hoa, Quan 11, 4.9, Cao hoc, 9010001095, duc95@gmail.com, Thu 3 - 5 - 7, 190000
+1096, Hoang Thu Son, Anh, Quan 12, 4.0, Dai hoc, 9010001096, son96@gmail.com, Cac buoi toi, 160000
+1097, Vu Ngoc Nhi, Toan, Quan 1, 4.9, Dai hoc, 9010001097, nhi97@gmail.com, Thu 3 - 5 - 7, 160000
+1098, Ly Huu Quyen, Ly, Quan 2, 4.3, Dai hoc, 9010001098, quyen98@gmail.com, Cac buoi toi, 150000
+1099, Vu Thanh Hoa, Hoa, Quan 3, 4.4, Cao hoc, 9010001099, hoa99@gmail.com, Thu 7 - CN, 190000
+1100, Tran Thi Hanh, Anh, Quan 4, 4.6, Thac si, 9010001100, hanh100@gmail.com, Thu 2 - 4 - 6, 210000
+1020, Nguyen Hoai Han, Toan, Thu duc, 5.0, Dai hoc, 0862663619, nguyenhan24012007@gmail.com, Cac buoi toi, 300000
+1011, Nguyen Duc Dai Duong, Ly, Quan 1, 5.0, Dai hoc, 0974233703, daiduongne333@gmail.com, Cac buoi sang, 500000
+1003, Ngo Thi Ngoc Anh, Hoa, Thu duc, 5.0, Dai hoc, 0123456789, ngocanhxinh234@gmail.com, Thu 2 - 3 - 4, 600000
+1091, Le Thi Ngoc Tuyet, lap trinh, Can gio, 5.0, Dai hoc, 0987654321, ngoctuyetle321@gmail.com, Cac buoi trua, 700000 1911, Nguyen Le Quy Trong, Sinh, Thu Duc, 5.0, Sinh vien, 0348574794, trongnguyen@gmail.com, Thu 2 - 3 -5, 2000000
+1912, Nguyen Hoang Long, Toan, Quan 1, 5.0, Thac si, 09574735544, longhao@gmail.com, Thu 2 - 5 - 7, 2000000
