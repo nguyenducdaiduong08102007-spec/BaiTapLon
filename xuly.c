@@ -1,4 +1,5 @@
 #include "giasu.h"
+#include <ctype.h>
 
 //Các hàm xử lý dữ liệu đầu vào
 void xoaKhoangTrangThua(char* str) {
@@ -23,6 +24,12 @@ void themTrinhDo(char* trinh_do) {
     }
     strcpy(danhSachTrinhDo[soLuongTrinhDo], trinh_do);
     soLuongTrinhDo++;
+}
+
+void my_strlwr(char* str) {
+    for (int i = 0; str[i]; i++) {
+        str[i] = tolower(str[i]);
+    }
 }
 
 int timChuoi(const char* chuoi_goc, const char* chuoi_tim) {
