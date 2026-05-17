@@ -76,6 +76,7 @@ extern int soLuongTrinhDo;
 
 // Khai báo hàm xử lý dữ liệu đầu vào
 void xoaKhoangTrangThua(char* str);
+void my_strlwr(char* str);
 int timChuoi(const char* chuoi_goc, const char* chuoi_tim);
 int timKhuVucChuan(const char* chuoi_goc, const char* chuoi_tim);
 int cmpRateGiamDan(const void *a, const void *b);
