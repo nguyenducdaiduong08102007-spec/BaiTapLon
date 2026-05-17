@@ -13,8 +13,6 @@ void hienThiToanBo() {
     
     // In cái bảng ra
     inBangGiaSu(ketQuaHienTai, soLuongKetQua);
-    
-    // ---> ĐÂY LÀ PHẦN MỚI THÊM VÀO NÈ <---
     // Nếu có gia sư trong bảng thì mới gọi tính năng nhập ID xem chi tiết
     if (soLuongKetQua > 0) {
         xemChiTietGiaSu();
