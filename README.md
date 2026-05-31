@@ -1,4 +1,4 @@
-# 👨‍🏫 HỆ THỐNG TÌM KIẾM VÀ QUẢN LÝ GIA SƯ TẠI TP.HCM (C CONSOLE APPLICATION)
+# HỆ THỐNG TÌM KIẾM VÀ QUẢN LÝ GIA SƯ TẠI TP.HCM (C CONSOLE APPLICATION)
 
 ![Language](https://img.shields.io/badge/Language-C99-blue.svg)
 ![Platform](https://img.shields.io/badge/Platform-Windows-lightgrey.svg)
@@ -15,7 +15,7 @@ Dự án Bài tập lớn môn **Kỹ thuật lập trình** được thực hi�
 
 ---
 
-## 📑 Mục Lục
+## Mục Lục
 * [1. Tổng Quan Dự Án](#1-tổng-quan-dự-án)
 * [2. Cấu Trúc Mã Nguồn](#2-cấu-trúc-mã-nguồn-repository-structure)
 * [3. Yêu Cầu Môi Trường](#3-yêu-cầu-môi-trường-prerequisites)
@@ -26,22 +26,14 @@ Dự án Bài tập lớn môn **Kỹ thuật lập trình** được thực hi�
 ---
 
 ## 1. Tổng Quan Dự Án
-Ứng dụng được viết hoàn toàn bằng ngôn ngữ **C (tiêu chuẩn C99)** hoạt động trên giao diện dòng lệnh (Console). Hệ thống cung cấp giải pháp kết nối tối ưu giữa Gia sư (những người có nhu cầu giảng dạy) và Phụ huynh/Học sinh dựa trên bộ lọc đa tiêu chí, tự động hóa kịch bản hệ thống và tích hợp giao tiếp thế giới thực thông qua giao thức mạng.
+Ứng dụng được viết hoàn toàn bằng ngôn ngữ **C (tiêu chuẩn C99)** hoạt động trên giao diện dòng lệnh (Console). Hệ thống cung cấp giải pháp kết nối tối ưu giữa Gia sư (những người có nhu cầu giảng dạy) và Phụ huynh/Học sinh dựa trên bộ lọc đa tiêu chí, tự động hóa kịch bản hệ thống và tích hợp hệ thống hộp thư thông báo hai chiều.
 
 ### Các đặc điểm kỹ thuật nổi bật:
-* **Kiến trúc vi mô (Micro-modules):** Chia tách toàn bộ logic nghiệp vụ ra 7 file riêng biệt theo nguyên lý *Single Responsibility*.
-* **Quản lý bộ nhớ động:** Sử dụng cấu trúc danh sách liên kết đơn (`Singly Linked List`) để xử lý cơ sở dữ liệu trên RAM một cách vô hạn, tối ưu hóa vùng nhớ bằng cơ chế giải phóng bộ nhớ triệt để trước khi thoát.
-* **Menu động thông minh (Dynamic Menu):** Hệ thống tự động quét tệp dữ liệu phẳng để thu thập các thuộc tính duy nhất của dữ liệu (Trình độ, Buổi dạy) nhằm tự sinh menu tương tác mà không cần cấu hình cứng (hard-code).
-* **Tự động hóa kịch bản gửi Email:** Kết hợp lệnh hệ thống (`System Call`) để tạo và thực thi ngầm script Windows PowerShell, thực hiện truyền tải dữ liệu đặt lịch qua máy chủ SMTP Gmail bằng cổng mã hóa SSL/TLS.
-* **Giao diện phân tầng ANSI:** Sử dụng hệ màu sắc ANSI escape code phong phú giúp phân tầng thông tin trực quan hóa bảng biểu Console 119 ký tự chuẩn mực.
-
-### 📸 Giao diện thực tế của ứng dụng:
-Menu 1: Phân quyền người dùng
-![Demo Giao dien App](demo.png)
-Menu 2: Danh cho gia sư
-![Demo Giao dien App](demo2.png)
-Menu 3: Dành cho phụ huynh / học sinh người cần tìm gia sư
-![Demo Giao dien App](demo3.png)
+* **Kiến trúc vi mô (Micro-modules):** Chia tách toàn bộ logic nghiệp vụ ra các file riêng biệt theo nguyên lý *Single Responsibility*.
+* **Quản lý bộ nhớ động:** Sử dụng cấu trúc danh sách liên kết đơn (`Singly Linked List`) để xử lý cơ sở dữ liệu trên RAM một cách vô hạn, tối ưu hóa vùng nhớ bằng cơ chế giải phóng triệt để trước khi thoát.
+* **Giao diện chống trôi thông minh (Anti-scroll UI):** Ứng dụng kỹ thuật mã điều khiển hệ thống (`ANSI escape code \033[A\033[K`) giúp giao diện tự động xóa dòng nhập lỗi, giữ form nhập liệu luôn cố định trên một màn hình tĩnh.
+* **Hộp thư thông báo nội bộ (Local Inbox System):** Xây dựng thuật toán xử lý đối sánh chéo đa tệp (`lophoc.txt` và `lichhen.txt`) cho phép Gia sư ứng tuyển, Phụ huynh duyệt đơn và tự động đánh trượt các đối thủ cạnh tranh cùng mã lớp.
+* **Giao diện phân tầng ANSI:** Sử dụng hệ màu sắc ANSI phong phú giúp phân tầng thông tin trực quan hóa bảng biểu Console chuẩn mực, tự động căn lề bù byte chính xác cho Tiếng Việt có dấu (UTF-8).
 
 ---
 
@@ -51,15 +43,16 @@ Dự án được tổ chức chặt chẽ thành các mô-đun chức năng sau
 
 ```text
 📦 DU_AN_GIA_SU
-├── 📜 main.c           # Điểm khởi chạy, điều phối Menu chính
-├── 📜 giasu.h          # Cấu trúc dữ liệu, biến toàn cục, màu ANSI
-├── 📜 danhsach.c       # Quản lý danh sách liên kết, thao tác File
-├── 📜 xuly.c           # Thuật toán tìm kiếm, chuẩn hóa chuỗi
-├── 📜 giaodien.c       # In bảng giao diện Console, Menu động
-├── 📜 dangkygiasu.c    # Nhập hồ sơ, tự động cấp mã ID mới
-├── 📜 datlich.c        # Đặt lịch học, tự động bắn Email SMTP
-├── 📄 giasu.txt        # Cơ sở dữ liệu (Database)
-└── 📄 datlich.txt      # Lịch sử lưu vết giao dịch (Log)
+├── 📜 main.c          # Điểm khởi chạy, set bảng mã UTF-8, điều phối Menu
+├── 📜 giasu.h         # Định nghĩa Struct, biến toàn cục, màu ANSI, nguyên mẫu hàm
+├── 📜 danhsach.c      # Quản lý danh sách liên kết (RAM), thao tác Đọc/Ghi File
+├── 📜 xuly.c          # Thuật toán tìm kiếm, chuẩn hóa chuỗi, Validate dữ liệu
+├── 📜 giaodien.c      # In bảng giao diện Console, Lọc đa tiêu chí & Phân trang
+├── 📜 dangkygiasu.c   # Nghiệp vụ Gia sư (Đăng ký, đăng nhập, sửa hồ sơ)
+├── 📜 datlich.c       # Nghiệp vụ Phụ huynh (Đăng tin, đặt lịch, duyệt hộp thư)
+├── 📄 giasu.txt       # Cơ sở dữ liệu Gia sư (Database 1)
+├── 📄 lophoc.txt      # Cơ sở dữ liệu Lớp học được mở (Database 2)
+└── 📄 lichhen.txt     # Nhật ký giao dịch và hộp thư thông báo (Database 3)
 ```
 
 ---
@@ -67,9 +60,8 @@ Dự án được tổ chức chặt chẽ thành các mô-đun chức năng sau
 ## 3. Yêu Cầu Môi Trường (Prerequisites)
 
 Để hệ thống biên dịch và vận hành chính xác tất cả các chức năng nâng cao, môi trường chạy thử của **Tester** cần đảm bảo:
-1.  **Hệ điều hành:** Microsoft Windows 10 hoặc Windows 11 (Bắt buộc để hỗ trợ công cụ `PowerShell` gửi Mail và cơ chế dọn màn hình hệ thống `system("cls")`).
+1.  **Hệ điều hành:** Microsoft Windows (Bắt buộc để hỗ trợ thư viện `<windows.h>` cấu hình bảng mã 65001 và lệnh dọn màn hình hệ thống `system("cls")`).
 2.  **Trình biên dịch:** `GCC (GNU Compiler Collection)` phiên bản hỗ trợ C99 (Tích hợp sẵn trong Dev-C++ 5.11, MinGW hoặc cài kèm qua MSYS2 trên VS Code).
-3.  **Kết nối mạng:** Cần có kết nối Internet hoạt động để kiểm thử chức năng gửi Email về tổng đài.
 
 ---
 
@@ -79,16 +71,19 @@ Dự án được tổ chức chặt chẽ thành các mô-đun chức năng sau
 
 **Bước 1: Mở Terminal tại thư mục dự án**
 Bật công cụ `PowerShell` hoặc `Command Prompt` (CMD) trên máy tính và di chuyển đường dẫn (`cd`) vào đúng thư mục đang chứa mã nguồn. 
-*(Lưu ý: Phải đảm bảo file `giasu.txt` nằm chung thư mục với các file code `.c`).*
+*(Lưu ý: Đảm bảo các file `.txt` nằm chung thư mục với các file code `.c`).*
 
 **Bước 2: Biên dịch hệ thống (Build)**
 Copy và dán dòng lệnh sau vào Terminal để gộp 6 file mã nguồn lại thành 1 file thực thi. Bấm Enter:
-`gcc main.c xuly.c danhsach.c giaodien.c dangkygiasu.c datlich.c -o app_giasu.exe`
-*(Note cho Tester: Nếu Terminal hiện ra một vài dòng chữ vàng "warning: Using gets() is always unsafe", hãy cứ bỏ qua vì đây chỉ là cảnh báo của trình biên dịch, file .exe vẫn được tạo ra thành công).*
+```bash
+gcc main.c xuly.c danhsach.c giaodien.c dangkygiasu.c datlich.c -o app_giasu.exe
+```
 
 **Bước 3: Khởi chạy ứng dụng (Run)**
 Sau khi biên dịch xong, gõ lệnh sau để mở App và bắt đầu quá trình Test:
-`.\app_giasu.exe`
+```bash
+.\app_giasu.exe
+```
 
 ---
 
@@ -96,47 +91,35 @@ Sau khi biên dịch xong, gõ lệnh sau để mở App và bắt đầu quá t
 
 Để hỗ trợ nghiệm thu sản phẩm một cách nhanh chóng và bao phủ toàn diện tính năng, Tester hãy thực hiện theo chuỗi kịch bản dưới đây:
 
-### Test Case 1: Khởi tạo hệ thống & Nạp dữ liệu thành công
-* **Thao tác thực hiện:** Khởi chạy file `app_giasu.exe`. Tại giao diện chính, chọn vai trò `Phụ huynh/Học sinh (Nhập số 2)` -> Chọn tiếp `Xem toàn bộ danh sách Gia sư (Nhập số 1)`.
-* **Kết quả kỳ vọng:** Chương trình nạp file thành công. Bảng Console hiển thị danh sách các gia sư đầy đủ thông tin, căn lề thẳng hàng, các trường học phí và đánh giá được tô màu sắc rõ ràng theo dữ liệu gốc từ file `giasu.txt`.
+###  Test Case 1: Khởi tạo hệ thống & Nạp dữ liệu thành công
+* **Thao tác thực hiện:** Khởi chạy `app_giasu.exe`. Chọn vai trò `Phụ huynh/Học sinh (Nhập số 1)` -> Chọn tiếp `Tìm kiếm / lọc gia sư (Nhập số 1)`.
+* **Kết quả kỳ vọng:** Bảng Console hiển thị danh sách các gia sư đầy đủ thông tin, căn lề thẳng hàng, các trường học phí và đánh giá được in màu sắc nét. Chữ tiếng Việt hiển thị chính xác không bị lỗi font ô vuông.
 
-### Test Case 2: Đăng ký Gia sư mới & Đồng bộ thời gian thực
-* **Thao tác thực hiện:** Tại Menu chính, chọn vai trò `Gia sư (Nhập số 1)`. Tiến hành điền đầy đủ các thông tin cá nhân theo yêu cầu từng dòng. Thử nhập mức Học phí yêu cầu là `200000`.
+###  Test Case 2: Đăng ký Gia sư mới & Bắt lỗi Input
+* **Thao tác thực hiện:** Tại Menu chính, chọn `Phân hệ quản lý gia sư (Nhập số 2)` -> `Đăng ký (Nhập số 3)`. Tại bước nhập Học phí, hãy thử gõ chữ cái `abc` hoặc số âm.
 * **Kết quả kỳ vọng:**
-    * Hệ thống phải tự động tính toán cấp mã ID mới bằng công thức: $ID_{mới} = ID_{max\_hiện\_tại} + 1$ (ID tối thiểu bắt đầu từ mốc 1000).
-    * Điểm đánh giá (Rating) mặc định hiển thị trong hồ sơ phải bằng `5.0`.
-    * Sau khi nhấn thông báo thành công, mở file `giasu.txt` lên kiểm tra, dòng cuối cùng phải xuất hiện bản ghi vừa nhập. Khi quay lại Menu người tìm kiếm xem danh sách, bản ghi mới phải lập tức xuất hiện trên RAM mà không cần tắt ứng dụng đi bật lại.
+    * Ứng dụng **không bị crash**. Màn hình sẽ chớp nháy nhanh, xóa đi dòng chữ nhập sai và in ra cảnh báo màu đỏ yêu cầu nhập lại số nguyên dương, giữ màn hình gọn gàng.
+    * Sau khi đăng ký thành công bằng dữ liệu chuẩn, mở file `giasu.txt` sẽ thấy bản ghi mới, đồng thời Điểm đánh giá mặc định là `0.0` (Sẽ in chữ `NEW` trên bảng).
 
-### Test Case 3: Bắt lỗi nhập liệu dữ liệu sai định dạng (Input Validation)
-* **Thao tác thực hiện:**
-    * Tại các Menu lựa chọn số: Cố tình nhập chuỗi chữ cái (Ví dụ: `abc`, `xyz`).
-    * Tại màn hình nhập Học phí yêu cầu của gia sư: Cố tình nhập ký tự chữ cái thay vì số nguyên.
-* **Kết quả kỳ vọng:** Ứng dụng không bị đóng băng, không rơi vào vòng lặp vô tận (Infinite loop) hoặc sập tiến trình (`crash`). Hệ thống phải ép giá trị nhập sai về định dạng an toàn (bằng 0) hoặc thông báo lỗi và yêu cầu nhập lại, bảo vệ bộ nhớ RAM không bị tràn dữ liệu.
+###  Test Case 3: Thuật toán so khớp chuỗi chuẩn xác
+* **Thao tác thực hiện:** Vào menu Lọc gia sư, tại mục nhập `Khu vực`, gõ từ khóa `Quận 1`.
+* **Kết quả kỳ vọng:** Hàm `timKhuVucChuan()` kích hoạt cơ chế chặn ký tự số ở đuôi chuỗi khớp con. Kết quả trả về **CHỈ** xuất hiện gia sư `Quận 1`, tuyệt đối không dính tạp chất từ `Quận 10, Quận 11, Quận 12`.
 
-###  Test Case 4: Thuật toán so khớp chuỗi chuẩn xác (Anti-Overlap Substring Match)
-* **Thao tác thực hiện:** Vào menu tìm kiếm gia sư, tại mục nhập `Khu vực`, thử gõ từ khóa `Quận 1`.
-* **Kết quả kỳ vọng:** Hàm thuật toán đặc biệt `timKhuVucChuan()` phải kích hoạt cơ chế chặn ký tự số ở đuôi chuỗi khớp con. Bảng kết quả trả về **CHỈ** được phép xuất hiện những gia sư thuộc địa bàn `Quận 1`. Hệ thống tuyệt đối không được hiển thị nhầm các gia sư thuộc `Quận 10`, `Quận 11` hay `Quận 12`.
+###  Test Case 4: Bộ lọc đa tiêu chí & Sắp xếp giảm dần
+* **Thao tác thực hiện:** Chọn lọc theo `Môn Toán`, `Khu vực Quận 3` và `Học phí tối đa 200000`.
+* **Kết quả kỳ vọng:** * Hệ thống lọc đồng thời cả 3 điều kiện, hiển thị số lượng hồ sơ thỏa mãn ở dòng phân trang.
+    * Danh sách trả về được sắp xếp ưu tiên **Rating giảm dần** từ cao xuống thấp thông qua thuật toán `qsort`.
 
-###  Test Case 5: Bộ lọc phối hợp đa tiêu chí & Sắp xếp giảm dần
-* **Thao tác thực hiện:** Chọn tính năng `Tìm kiếm / Lọc Gia sư (Nhập số 2)`. Tiến hành gõ môn học `Toan`, Khu vực `Quan 1`, chọn một trình độ từ menu động và nhập mức Học phí tối đa là `180000`.
-* **Kết quả kỳ vọng:**
-    * Hệ thống phải lọc đồng thời tất cả các điều kiện dựa trên cơ chế cờ hiệu liên hoàn. Tổng số gia sư tìm được phải in rõ ở dòng tiêu đề bảng màu đỏ chói.
-    * Toàn bộ danh sách gia sư lọc ra bắt buộc phải được sắp xếp theo thứ tự **Rating (Điểm đánh giá) giảm dần từ cao xuống thấp** nhờ thuật toán `qsort` thư viện chuẩn C.
-
-###  Test Case 6: Trigger kịch bản tự động hóa gửi Email SMTP
-* **Thao tác thực hiện:** Sau khi màn hình hiển thị danh sách gia sư thỏa điều kiện, nhập một ID gia sư bất kỳ đang có trong bảng để vào màn hình Hồ sơ chi tiết. Nhập phím `1` để chọn Đặt lịch học. Điền Tên phụ huynh, SĐT và lời nhắn, bấm Enter.
-* **Kết quả kỳ vọng:**
-    * Hệ thống sinh nhanh file script tạm thời `sendmail.ps1` trong thư mục.
-    * PowerShell Windows chạy ngầm trong khoảng 2-4 giây để kết nối cổng mạng SSL/TLS của Google.
-    * Sau khi màn hình in dòng chữ màu xanh lá `"GUI TONG DAI THANH CONG!"`, file kịch bản tạm thời `sendmail.ps1` phải tự động biến mất hoàn toàn khỏi ổ cứng (tự hủy để bảo mật thông tin).
-    * Hộp thư email ban quản lý nhận được thông báo chi tiết chứa đầy đủ text nhập từ phụ huynh và hồ sơ gia sư bị đặt lịch.
+###  Test Case 5: Kịch bản Đặt lịch & Hộp thư tự động
+* **Thao tác thực hiện:** 1. Phụ huynh **Tạo lớp học mới** (tìm gia sư Toán).
+    2. Một Gia sư đăng nhập, dùng tính năng **Xem lớp đang chờ** và nộp đơn ứng tuyển vào lớp đó.
+    3. Phụ huynh vào **Hộp thư thông báo**, nhập SĐT của mình để xem đơn ứng tuyển. Bấm `Chấp nhận`.
+* **Kết quả kỳ vọng:** Lịch hẹn chuyển sang trạng thái "ĐÃ CHẤP NHẬN". Hệ thống lập tức khóa lớp học đó lại (cập nhật ID gia sư dạy), ghi đè dữ liệu xuống `lophoc.txt`, và tự động bắn thông báo ĐÁNH TRƯỢT tới tất cả các gia sư khác lỡ nộp đơn vào cùng mã lớp này.
 
 ---
 
 ## 6. Một Số Lưu Ý Quan Trọng Khi Chạy Thử (Troubleshooting)
 
-> **1. Lỗi không mở được file dữ liệu:** Nếu app báo lỗi thiếu tệp `giasu.txt` ngay khi vừa chạy, hãy kiểm tra chắc chắn rằng tệp text dữ liệu đang nằm cùng một folder chứa file thực thi `.exe` chứ không bị để lạc ra ngoài.
+> **1. Lỗi không mở được file dữ liệu:** Nếu app báo chữ đỏ `Lỗi: Không thể mở file giasu.txt để đọc dữ liệu!` ngay khi vừa chạy, hãy kiểm tra chắc chắn tệp text đó đã được tạo và nằm cùng một folder với file `.exe`.
 >
-> **2. Lỗi phân quyền PowerShell (Execution Policy):** Một số máy trạm cài đặt bảo mật Windows quá cao có thể chặn script. Tuy nhiên, mã nguồn của nhóm đã chủ động truyền tham số `-ExecutionPolicy Bypass` để mượn đường hệ điều hành một cách hợp pháp, giúp bỏ qua bước xác thực quyền cấu hình cục bộ của Windows.
->
-> **3. Warning bảo mật:** Module Email hoạt động theo cơ chế đồng bộ (Synchronous) nên app sẽ khựng nhẹ khoảng 2-3 giây khi kết nối mạng gửi dữ liệu đi, đây là đặc tính kiến trúc xử lý tuần tự của ngôn ngữ C thuần trên console.
+> **2. Lỗi font chữ Console (Ký tự loằng ngoằng):** Dù ứng dụng đã ép mã 65001, nhưng nếu Terminal của bạn đang dùng Font chữ DOS cũ, tiếng Việt sẽ bị lỗi. **Cách khắc phục:** Nhấp chuột phải vào thanh tiêu đề Console -> `Properties` (Thuộc tính) -> Tab `Font` -> Chọn font **Consolas** hoặc **Lucida Console**.
