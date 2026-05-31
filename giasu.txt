@@ -1,105 +1,100 @@
-1001, Tran Thanh Ha, Toan, Quan 1, 4.3, Dai hoc, 9010001001, ha1@gmail.com, Thu 7 - CN, 160000
-1002, Pham Duc Tuan, Ly, Quan 2, 4.8, Dai hoc, 9010001002, tuan2@gmail.com, Thu 5 - Thu 6, 170000
-1300, Pham Duc Tien, Hoa, Quan 3, 4.8, Cao hoc, 9010001003, tien3@gmail.com, Cac buoi toi, 190000
-1004, Pham Minh Chau, Anh, Quan 4, 4.3, Cao hoc, 9010001004, chau4@gmail.com, Thu 2 - 4 - 6, 200000
-1005, Do Hong Viet, Toan, Quan 5, 4.7, Thac si, 9010001005, viet5@gmail.com, Thu 2 - Thu 3, 210000
-1006, Vu Duc Trang, Ly, Quan 6, 4.7, Dai hoc, 9010001006, trang6@gmail.com, Thu 3 - 5 - 7, 170000
-1007, Vu Minh Phat, Hoa, Quan 7, 4.2, Dai hoc, 9010001007, phat7@gmail.com, Thu 5 - Thu 6, 150000
-1008, Duong Thi Linh, Anh, Quan 8, 4.8, Cao hoc, 9010001008, linh8@gmail.com, Thu 3 - 5 - 7, 200000
-1009, Bui Minh Khoa, Toan, Quan 9, 4.7, Cao hoc, 9010001009, khoa9@gmail.com, Thu 3 - 5 - 7, 200000
-1010, Hoang Ngoc My, Ly, Quan 10, 4.6, Cao hoc, 9010001010, my10@gmail.com, Thu 2 - 4 - 6, 180000
-1111, Ngo Huu Tien, Hoa, Quan 11, 4.0, Cao hoc, 9010001011, tien11@gmail.com, Thu 2 - 4 - 6, 200000
-1012, Ngo Thi Tuan, Anh, Quan 12, 4.2, Cao hoc, 9010001012, tuan12@gmail.com, Thu 2 - Thu 3, 200000
-1013, Hoang Quang Giang, Toan, Quan 1, 4.2, Thac si, 9010001013, giang13@gmail.com, Cac buoi toi, 230000
-1014, Le Thu Sang, Ly, Quan 2, 4.0, Thac si, 9010001014, sang14@gmail.com, Thu 5 - Thu 6, 220000
-1015, Vo Quang Viet, Hoa, Quan 3, 4.3, Cao hoc, 9010001015, viet15@gmail.com, Thu 3 - 5 - 7, 200000
-1016, Huynh Ngoc Binh, Anh, Quan 4, 4.3, Thac si, 9010001016, binh16@gmail.com, Thu 3 - 5 - 7, 230000
-1017, Pham Thanh Trang, Toan, Quan 5, 4.5, Dai hoc, 9010001017, trang17@gmail.com, Thu 3 - 5 - 7, 150000
-1018, Hoang Thanh Ha, Ly, Quan 6, 4.0, Thac si, 9010001018, ha18@gmail.com, Thu 5 - Thu 6, 220000
-1019, Ngo Huu Cu, Hoa, Quan 7, 4.1, Cao hoc, 9010001019, cu19@gmail.com, Thu 2 - 4 - 6, 180000
-1200, Duong Hong Hoa, Anh, Quan 8, 4.6, Thac si, 9010001020, hoa20@gmail.com, Cac buoi toi, 210000
-1021, Huynh Thu Xuan, Toan, Quan 9, 4.5, Cao hoc, 9010001021, xuan21@gmail.com, Thu 2 - 4 - 6, 200000
-1022, Tran Thanh Anh, Ly, Quan 10, 4.8, Dai hoc, 9010001022, anh22@gmail.com, Thu 2 - Thu 3, 150000
-1023, Le Thu My, Hoa, Quan 11, 4.6, Dai hoc, 9010001023, my23@gmail.com, Thu 5 - Thu 6, 150000
-1024, Huynh Huu Quyen, Anh, Quan 12, 4.1, Thac si, 9010001024, quyen24@gmail.com, Thu 3 - 5 - 7, 210000
-1025, Phan Thanh Son, Toan, Quan 1, 4.7, Thac si, 9010001025, son25@gmail.com, Thu 2 - 4 - 6, 220000
-1026, Tran Van Nhi, Ly, Quan 2, 4.8, Cao hoc, 9010001026, nhi26@gmail.com, Cac buoi toi, 190000
-1027, Hoang Huu Son, Hoa, Quan 3, 4.7, Thac si, 9010001027, son27@gmail.com, Thu 7 - CN, 230000
-1028, Ly Thanh Phat, Anh, Quan 4, 4.6, Cao hoc, 9010001028, phat28@gmail.com, Cac buoi toi, 200000
-1029, Nguyen Minh Nam, Toan, Quan 5, 4.7, Dai hoc, 9010001029, nam29@gmail.com, Thu 3 - 5 - 7, 170000
-1030, Phan Cong Bich, Ly, Quan 6, 4.5, Thac si, 9010001030, bich30@gmail.com, Thu 7 - CN, 230000
-1031, Tran Van Duc, Hoa, Quan 7, 4.2, Thac si, 9010001031, duc31@gmail.com, Thu 2 - Thu 3, 220000
-1032, Hoang Quang Tuan, Anh, Quan 8, 4.2, Cao hoc, 9010001032, tuan32@gmail.com, Thu 2 - 4 - 6, 190000
-1033, Duong Thu Quyen, Toan, Quan 9, 4.5, Thac si, 9010001033, quyen33@gmail.com, Cac buoi toi, 230000
-1034, Ly Hong Trang, Ly, Quan 10, 4.2, Dai hoc, 9010001034, trang34@gmail.com, Thu 7 - CN, 170000
-1035, Ly Thi Anh, Hoa, Quan 11, 4.6, Dai hoc, 9010001035, anh35@gmail.com, Thu 2 - 4 - 6, 150000
-1036, Tran Ngoc Binh, Anh, Quan 12, 4.1, Dai hoc, 9010001036, binh36@gmail.com, Thu 3 - 5 - 7, 150000
-1037, Duong Thu My, Toan, Quan 1, 4.6, Cao hoc, 9010001037, my37@gmail.com, Thu 2 - Thu 3, 190000
-1038, Dang Phuong Trang, Ly, Quan 2, 4.4, Thac si, 9010001038, trang38@gmail.com, Thu 2 - 4 - 6, 230000
-1039, Tran Minh Long, Hoa, Quan 3, 4.6, Thac si, 9010001039, long39@gmail.com, Thu 2 - 4 - 6, 230000
-1040, Hoang Ngoc An, Anh, Quan 4, 4.5, Cao hoc, 9010001040, an40@gmail.com, Thu 5 - Thu 6, 200000
-1041, Dang Quang Phat, Toan, Quan 5, 4.4, Cao hoc, 9010001041, phat41@gmail.com, Cac buoi toi, 180000
-1042, Tran Hong Long, Ly, Quan 6, 4.3, Cao hoc, 9010001042, long42@gmail.com, Thu 2 - Thu 3, 190000
-1043, Phan Ngoc Dung, Hoa, Quan 7, 4.0, Thac si, 9010001043, dung43@gmail.com, Thu 3 - 5 - 7, 230000
-1044, Le Duc Nam, Anh, Quan 8, 4.6, Cao hoc, 9010001044, nam44@gmail.com, Thu 5 - Thu 6, 190000
-1045, Tran Minh An, Toan, Quan 9, 4.2, Thac si, 9010001045, an45@gmail.com, Thu 2 - Thu 3, 230000
-1046, Duong Thi Em, Ly, Quan 10, 4.2, Dai hoc, 9010001046, em46@gmail.com, Thu 2 - 4 - 6, 170000
-1047, Vu Phuong Uyen, Hoa, Quan 11, 4.6, Cao hoc, 9010001047, uyen47@gmail.com, Cac buoi toi, 190000
-1048, Hoang Phuong Dat, Anh, Quan 12, 4.5, Dai hoc, 9010001048, dat48@gmail.com, Thu 5 - Thu 6, 170000
-1049, Ho Phuong Khoa, Toan, Quan 1, 4.6, Thac si, 9010001049, khoa49@gmail.com, Thu 2 - Thu 3, 210000
-1050, Ly Thanh Mai, Ly, Quan 2, 4.4, Cao hoc, 9010001050, mai50@gmail.com, Thu 3 - 5 - 7, 200000
-1051, Phan Hong Minh, Hoa, Quan 3, 4.6, Dai hoc, 9010001051, minh51@gmail.com, Thu 2 - 4 - 6, 150000
-1052, Phan Thanh Chau, Anh, Quan 4, 4.8, Thac si, 9010001052, chau52@gmail.com, Cac buoi toi, 210000
-1053, Vu Thu Xuan, Toan, Quan 5, 4.7, Thac si, 9010001053, xuan53@gmail.com, Thu 7 - CN, 220000
-1054, Ly Thi Hoa, Ly, Quan 6, 4.6, Cao hoc, 9010001054, hoa54@gmail.com, Thu 7 - CN, 200000
-1055, Vu Quang Xuan, Hoa, Quan 7, 4.6, Cao hoc, 9010001055, xuan55@gmail.com, Thu 7 - CN, 190000
-1056, Do Thu Cu, Anh, Quan 8, 4.4, Dai hoc, 9010001056, cu56@gmail.com, Thu 3 - 5 - 7, 160000
-1057, Pham Thi Phuong, Toan, Quan 9, 4.7, Thac si, 9010001057, phuong57@gmail.com, Thu 3 - 5 - 7, 220000
-1058, Vu Minh Uyen, Ly, Quan 10, 4.5, Thac si, 9010001058, uyen58@gmail.com, Thu 3 - 5 - 7, 220000
-1059, Phan Thanh Dao, Hoa, Quan 11, 4.8, Cao hoc, 9010001059, dao59@gmail.com, Thu 2 - Thu 3, 200000
-1060, Hoang Van Trang, Anh, Quan 12, 4.8, Thac si, 9010001060, trang60@gmail.com, Thu 7 - CN, 210000
-1061, Le Thanh Khanh, Toan, Quan 1, 4.1, Dai hoc, 9010001061, khanh61@gmail.com, Thu 3 - 5 - 7, 150000
-1062, Hoang Hong Giang, Ly, Quan 2, 4.2, Thac si, 9010001062, giang62@gmail.com, Thu 5 - Thu 6, 210000
-1063, Ly Thi Ha, Hoa, Quan 3, 4.5, Thac si, 9010001063, ha63@gmail.com, Thu 3 - 5 - 7, 220000
-1064, Ly Thanh Dat, Anh, Quan 4, 4.7, Cao hoc, 9010001064, dat64@gmail.com, Thu 7 - CN, 190000
-1065, Bui Huu Tien, Toan, Quan 5, 4.8, Dai hoc, 9010001065, tien65@gmail.com, Thu 3 - 5 - 7, 170000
-1066, Vo Huu Oanh, Ly, Quan 6, 4.6, Thac si, 9010001066, oanh66@gmail.com, Thu 2 - Thu 3, 210000
-1067, Phan Thanh Tien, Hoa, Quan 7, 4.2, Thac si, 9010001067, tien67@gmail.com, Cac buoi toi, 230000
-1068, Hoang Phuong My, Anh, Quan 8, 4.1, Cao hoc, 9010001068, my68@gmail.com, Cac buoi toi, 200000
-1069, Ngo Thanh Yen, Toan, Quan 9, 4.2, Cao hoc, 9010001069, yen69@gmail.com, Thu 3 - 5 - 7, 200000
-1070, Ho Hong Dung, Ly, Quan 10, 4.1, Thac si, 9010001070, dung70@gmail.com, Thu 2 - Thu 3, 210000
-1071, Tran Van Viet, Hoa, Quan 11, 4.8, Thac si, 9010001071, viet71@gmail.com, Thu 3 - 5 - 7, 210000
-1072, Vu Thi Cuong, Anh, Quan 12, 4.4, Thac si, 9010001072, cuong72@gmail.com, Thu 7 - CN, 210000
-1073, Ngo Phuong Yen, Toan, Quan 1, 4.2, Dai hoc, 9010001073, yen73@gmail.com, Thu 2 - 4 - 6, 160000
-1074, Ho Ngoc Long, Ly, Quan 2, 4.6, Thac si, 9010001074, long74@gmail.com, Cac buoi toi, 230000
-1075, Le Thanh Vinh, Hoa, Quan 3, 4.8, Thac si, 9010001075, vinh75@gmail.com, Thu 2 - 4 - 6, 220000
-1076, Pham Huu Phat, Anh, Quan 4, 4.6, Dai hoc, 9010001076, phat76@gmail.com, Thu 2 - 4 - 6, 160000
-1077, Vo Thanh Khoa, Toan, Quan 5, 4.6, Dai hoc, 9010001077, khoa77@gmail.com, Thu 3 - 5 - 7, 150000
-1078, Huynh Thu Oanh, Ly, Quan 6, 4.1, Thac si, 9010001078, oanh78@gmail.com, Thu 3 - 5 - 7, 210000
-1079, Tran Hong Nhi, Hoa, Quan 7, 4.6, Cao hoc, 9010001079, nhi79@gmail.com, Thu 2 - Thu 3, 180000
-1080, Phan Thanh Anh, Anh, Quan 8, 4.7, Dai hoc, 9010001080, anh80@gmail.com, Thu 2 - 4 - 6, 170000
-1081, Vo Phuong Oanh, Toan, Quan 9, 4.7, Cao hoc, 9010001081, oanh81@gmail.com, Thu 7 - CN, 200000
-1082, Tran Thanh Quang, Ly, Quan 10, 4.4, Thac si, 9010001082, quang82@gmail.com, Thu 2 - 4 - 6, 210000
-1083, Phan Van Viet, Hoa, Quan 11, 4.2, Thac si, 9010001083, viet83@gmail.com, Thu 2 - Thu 3, 210000
-1084, Do Thanh Bich, Anh, Quan 12, 4.7, Thac si, 9010001084, bich84@gmail.com, Thu 2 - Thu 3, 210000
-1085, Ho Minh Tien, Toan, Quan 1, 4.5, Thac si, 9010001085, tien85@gmail.com, Thu 2 - Thu 3, 230000
-1086, Tran Cong Yen, Ly, Quan 2, 4.1, Thac si, 9010001086, yen86@gmail.com, Thu 2 - Thu 3, 230000
-1087, Nguyen Phuong Minh, Hoa, Quan 3, 4.4, Thac si, 9010001087, minh87@gmail.com, Thu 5 - Thu 6, 220000
-1088, Dang Hong Quang, Anh, Quan 4, 4.2, Cao hoc, 9010001088, quang88@gmail.com, Thu 7 - CN, 180000
-1089, Vu Van Giang, Toan, Quan 5, 4.8, Dai hoc, 9010001089, giang89@gmail.com, Cac buoi toi, 170000
-1090, Vo Minh Phuc, Ly, Quan 6, 4.9, Cao hoc, 9010001090, phuc90@gmail.com, Thu 3 - 5 - 7, 200000
-1910, Nguyen Ngoc Sang, Hoa, Quan 7, 4.4, Cao hoc, 9010001091, sang91@gmail.com, Thu 2 - Thu 3, 200000
-1092, Ho Quang Khang, Anh, Quan 8, 4.4, Dai hoc, 9010001092, khang92@gmail.com, Thu 3 - 5 - 7, 160000
-1093, Hoang Huu Hoa, Toan, Quan 9, 4.2, Thac si, 9010001093, hoa93@gmail.com, Thu 5 - Thu 6, 230000
-1094, Le Thi Binh, Ly, Quan 10, 4.4, Dai hoc, 9010001094, binh94@gmail.com, Thu 2 - Thu 3, 170000
-1095, Phan Thu Duc, Hoa, Quan 11, 4.9, Cao hoc, 9010001095, duc95@gmail.com, Thu 3 - 5 - 7, 190000
-1096, Hoang Thu Son, Anh, Quan 12, 4.0, Dai hoc, 9010001096, son96@gmail.com, Cac buoi toi, 160000
-1097, Vu Ngoc Nhi, Toan, Quan 1, 4.9, Dai hoc, 9010001097, nhi97@gmail.com, Thu 3 - 5 - 7, 160000
-1098, Ly Huu Quyen, Ly, Quan 2, 4.3, Dai hoc, 9010001098, quyen98@gmail.com, Cac buoi toi, 150000
-1099, Vu Thanh Hoa, Hoa, Quan 3, 4.4, Cao hoc, 9010001099, hoa99@gmail.com, Thu 7 - CN, 190000
-1100, Tran Thi Hanh, Anh, Quan 4, 4.6, Thac si, 9010001100, hanh100@gmail.com, Thu 2 - 4 - 6, 210000
-1020, Nguyen Hoai Han, Toan, Thu duc, 5.0, Dai hoc, 0862663619, nguyenhan24012007@gmail.com, Cac buoi toi, 300000
-1011, Nguyen Duc Dai Duong, Ly, Quan 1, 5.0, Dai hoc, 0974233703, daiduongne333@gmail.com, Cac buoi sang, 500000
-1003, Ngo Thi Ngoc Anh, Hoa, Thu duc, 5.0, Dai hoc, 0123456789, ngocanhxinh234@gmail.com, Thu 2 - 3 - 4, 600000
-1091, Le Thi Ngoc Tuyet, lap trinh, Can gio, 5.0, Dai hoc, 0987654321, ngoctuyetle321@gmail.com, Cac buoi trua, 700000 1911, Nguyen Le Quy Trong, Sinh, Thu Duc, 5.0, Sinh vien, 0348574794, trongnguyen@gmail.com, Thu 2 - 3 -5, 2000000
-1912, Nguyen Hoang Long, Toan, Quan 1, 5.0, Thac si, 09574735544, longhao@gmail.com, Thu 2 - 5 - 7, 2000000
+1001|pass01|Nguyễn Hoài Hận|Tiếng Trung|Quận 3|4.5|Đại học|0901001001|an1@gmail.com|S-- -C- --T --- --- --- ---|150000
+1002|pass02|Trần Thị Bình|Vật Lý|Quận 2|4.8|Cao học|0901001002|binh2@gmail.com|--- --- S-T S-T --- --- ---|200000
+1003|pass03|Lê Hoàng Cường|Hóa Học|Quận 3|4.2|Sinh viên|0901001003|cuong3@gmail.com|--T --T --T --T --T --- ---|120000
+1004|pass04|Phạm Ngọc Dung|Tiếng Anh|Quận 4|4.9|Thạc sĩ|0901001004|dung4@gmail.com|SCT SCT --- --- --- --- ---|250000
+1005|pass05|Hoàng Trung Đức|Ngữ Văn|Quận 5|4.1|Đại học|0901001005|duc5@gmail.com|-C- -C- -C- --- --- --- ---|160000
+1006|pass06|Huỳnh Mỹ Giang|Toán|Quận 6|4.6|Cao học|0901001006|giang6@gmail.com|S-- S-- S-- --- --- SCT SCT|220000
+1007|pass07|Vũ Đình Hải|Vật Lý|Quận 7|4.4|Đại học|0901001007|hai7@gmail.com|--- -C- --T -C- --T --- ---|180000
+1008|pass08|Đặng Thu Hà|Hóa Học|Quận 8|4.7|Thạc sĩ|0901001008|ha8@gmail.com|--T --T --T --T --T --T --T|240000
+1009|pass09|Bùi Quang Huy|Tiếng Anh|Quận 9|4.3|Sinh viên|0901001009|huy9@gmail.com|S-T S-T S-T --- --- --- ---|130000
+1010|pass10|Đỗ Bảo Khang|Toán|Quận 10|5.0|Thạc sĩ|0901001010|khang10@gmail.com|--- --- --- --- --- SCT SCT|300000
+1011|pass11|Ngô Thùy Linh|Ngữ Văn|Quận 11|4.5|Đại học|0901001011|linh11@gmail.com|-C- -C- -C- -C- -C- --- ---|160000
+1012|pass12|Lý Hoàng Minh|Vật Lý|Quận 12|4.2|Sinh viên|0901001012|minh12@gmail.com|S-- S-- --- --- --- --- ---|110000
+1013|pass13|Hồ Thị Nga|Hóa Học|Bình Thạnh|4.8|Cao học|0901001013|nga13@gmail.com|--T --T --T --T --T --- ---|210000
+1014|pass14|Đinh Trọng Oai|Tiếng Anh|Thủ Đức|4.6|Đại học|0901001014|oai14@gmail.com|S-T S-T S-T --- --- --- ---|180000
+1015|pass15|Trương Trọng Phú|Toán|Gò Vấp|4.3|Sinh viên|0901001015|phu15@gmail.com|--- --- --- -C- -C- -C- ---|140000
+1016|pass16|Mai Bích Quyên|Vật Lý|Phú Nhuận|4.9|Thạc sĩ|0901001016|quyen16@gmail.com|SCT SCT SCT --- --- --- ---|280000
+1017|pass17|Phan Thái Sơn|Toán|Tân Bình|4.4|Đại học|0901001017|son17@gmail.com|--- -C- --T --- -C- --T ---|170000
+1018|pass18|Châu Minh Tuấn|Hóa Học|Tân Phú|4.7|Cao học|0901001018|tuan18@gmail.com|--T --T --T --T --T --T --T|230000
+1019|pass19|Lương Thanh Uuyên|Tiếng Anh|Bình Tân|4.5|Sinh viên|0901001019|uyen19@gmail.com|S-- S-- S-- --- --- --- ---|150000
+1020|pass20|Lại Quốc Việt|Ngữ Văn|Nhà Bè|4.1|Đại học|0901001020|viet20@gmail.com|--- --- --- --- --- SCT SCT|160000
+1021|pass21|Nguyễn Hoàng Yến|Toán|Hóc Môn|4.8|Cao học|0901001021|yen21@gmail.com|S-T S-T S-T S-T S-T --- ---|220000
+1022|pass22|Trần Việt Anh|Vật Lý|Bình Chánh|4.3|Đại học|0901001022|anh22@gmail.com|-C- -C- -C- -C- -C- --- ---|170000
+1023|pass23|Lê Thị Bảo|Hóa Học|Củ Chi|4.6|Thạc sĩ|0901001023|bao23@gmail.com|--T --T --T --T --T --- ---|250000
+1024|pass24|Phạm Hữu Cảnh|Tiếng Anh|Cần Giờ|4.2|Sinh viên|0901001024|canh24@gmail.com|S-- -C- --T --- --- --- ---|120000
+1025|pass25|Hoàng Minh Đạt|Toán|Quận 1|4.9|Thạc sĩ|0901001025|dat25@gmail.com|SCT SCT SCT --- --- --- ---|290000
+1026|pass26|Huỳnh Thanh Điền|Vật Lý|Quận 2|4.4|Đại học|0901001026|dien26@gmail.com|--- --- --- -C- -C- -C- ---|180000
+1027|pass27|Vũ Trọng Ân|Ngữ Văn|Quận 3|4.7|Cao học|0901001027|an27@gmail.com|--T --T --T --T --T --- ---|210000
+1028|pass28|Đặng Xuân Phúc|Toán|Quận 4|4.5|Sinh viên|0901001028|phuc28@gmail.com|S-- S-- S-- --- --- --- ---|130000
+1029|pass29|Bùi Tiến Dũng|Tiếng Anh|Quận 5|4.1|Đại học|0901001029|dung29@gmail.com|-C- -C- -C- --- --- --- ---|160000
+1030|pass30|Đỗ Quốc Duy|Toán|Quận 6|4.8|Thạc sĩ|0901001030|duy30@gmail.com|--- --- --- --- --- SCT SCT|270000
+1031|pass31|Ngô Ngọc Giao|Vật Lý|Quận 7|4.6|Cao học|0901001031|giao31@gmail.com|S-T S-T S-T --- --- --- ---|220000
+1032|pass32|Lý Hoàng Hưng|Hóa Học|Quận 8|4.3|Đại học|0901001032|hung32@gmail.com|--T --T --T --T --T --T --T|180000
+1033|pass33|Hồ Tuấn Kiệt|Tiếng Anh|Quận 9|4.9|Thạc sĩ|0901001033|kiet33@gmail.com|SCT SCT --- --- --- --- ---|300000
+1034|pass34|Đinh Tuấn Khải|Toán|Quận 10|4.5|Sinh viên|0901001034|khai34@gmail.com|--- -C- --T --- -C- --T ---|140000
+1035|pass35|Trương Thế Lâm|Ngữ Văn|Quận 11|4.2|Đại học|0901001035|lam35@gmail.com|-C- -C- -C- -C- -C- --- ---|150000
+1036|pass36|Mai Gia Mẫn|Toán|Quận 12|4.7|Cao học|0901001036|man36@gmail.com|S-- S-- S-- --- --- SCT SCT|230000
+1037|pass37|Phan Khôi Nguyên|Vật Lý|Bình Thạnh|4.4|Sinh viên|0901001037|nguyen37@gmail.com|S-T S-T S-T --- --- --- ---|130000
+1038|pass38|Châu Hồng Nhật|Hóa Học|Thủ Đức|4.8|Thạc sĩ|0901001038|nhat38@gmail.com|--T --T --T --T --T --- ---|260000
+1039|pass39|Lương Bích Phượng|Tiếng Anh|Gò Vấp|4.6|Đại học|0901001039|phuong39@gmail.com|--- --- --- -C- -C- -C- ---|190000
+1040|pass40|Lại Quốc Quân|Toán|Phú Nhuận|4.1|Sinh viên|0901001040|quan40@gmail.com|S-- -C- --T --- --- --- ---|120000
+1041|pass41|Nguyễn Cát Tiên|Vật Lý|Tân Bình|4.9|Cao học|0901001041|tien41@gmail.com|SCT SCT SCT --- --- --- ---|250000
+1042|pass42|Trần Cẩm Tú|Toán|Tân Phú|4.5|Đại học|0901001042|tu42@gmail.com|--- --- --- --- --- SCT SCT|170000
+1043|pass43|Lê Anh Thư|Hóa Học|Bình Tân|4.3|Sinh viên|0901001043|thu43@gmail.com|-C- -C- -C- --- --- --- ---|140000
+1044|pass44|Phạm Ngọc Tuyền|Tiếng Anh|Nhà Bè|4.7|Thạc sĩ|0901001044|tuyen44@gmail.com|--T --T --T --T --T --T --T|280000
+1045|pass45|Hoàng Minh Tâm|Ngữ Văn|Hóc Môn|4.4|Đại học|0901001045|tam45@gmail.com|S-T S-T S-T --- --- --- ---|160000
+1046|pass46|Huỳnh Quốc Trí|Toán|Bình Chánh|4.8|Cao học|0901001046|tri46@gmail.com|S-- S-- S-- --- --- --- ---|220000
+1047|pass47|Vũ Gia Uyên|Vật Lý|Củ Chi|4.2|Sinh viên|0901001047|uyen47@gmail.com|--- -C- --T -C- --T --- ---|130000
+1048|pass48|Đặng Vân Vũ|Hóa Học|Cần Giờ|4.6|Đại học|0901001048|vu48@gmail.com|--T --T --T --T --T --- ---|180000
+1049|pass49|Bùi Ái Vy|Tiếng Anh|Quận 1|5.0|Thạc sĩ|0901001049|vy49@gmail.com|SCT SCT --- --- --- --- ---|300000
+1050|pass50|Đỗ Đức Vương|Toán|Quận 2|4.5|Cao học|0901001050|vuong50@gmail.com|-C- -C- -C- -C- -C- --- ---|200000
+1051|pass51|Ngô Hải Xuân|Vật Lý|Quận 3|4.1|Sinh viên|0901001051|xuan51@gmail.com|--- --- --- -C- -C- -C- ---|120000
+1052|pass52|Lý Thảo Yên|Hóa Học|Quận 4|4.7|Đại học|0901001052|yen52@gmail.com|--T --T --T --T --T --T --T|190000
+1053|pass53|Hồ Khắc Ái|Tiếng Anh|Quận 5|4.3|Cao học|0901001053|ai53@gmail.com|S-T S-T S-T --- --- --- ---|210000
+1054|pass54|Đinh Tuấn Bình|Toán|Quận 6|4.9|Thạc sĩ|0901001054|binh54@gmail.com|S-- S-- S-- --- --- SCT SCT|270000
+1055|pass55|Trương Thế Cao|Ngữ Văn|Quận 7|4.4|Đại học|0901001055|cao55@gmail.com|--- -C- --T --- -C- --T ---|150000
+1056|pass56|Mai Gia Cương|Toán|Quận 8|4.8|Cao học|0901001056|cuong56@gmail.com|--- --- --- --- --- SCT SCT|240000
+1057|pass57|Phan Cẩm Duyên|Vật Lý|Quận 9|4.2|Sinh viên|0901001057|duyen57@gmail.com|S-- -C- --T --- --- --- ---|110000
+1058|pass58|Châu Mỹ Diên|Hóa Học|Quận 10|4.6|Đại học|0901001058|dien58@gmail.com|--T --T --T --T --T --- ---|170000
+1059|pass59|Lương Tiến Đạt|Tiếng Anh|Quận 11|4.5|Cao học|0901001059|dat59@gmail.com|-C- -C- -C- --- --- --- ---|200000
+1060|pass60|Lại Thị Hạnh|Toán|Quận 12|4.9|Thạc sĩ|0901001060|hanh60@gmail.com|SCT SCT SCT --- --- --- ---|290000
+1061|pass61|Nguyễn Việt Hoàng|Vật Lý|Bình Thạnh|4.3|Sinh viên|0901001061|hoang61@gmail.com|--- --- --- -C- -C- -C- ---|140000
+1062|pass62|Trần Thu Hoài|Toán|Thủ Đức|4.7|Đại học|0901001062|hoai62@gmail.com|S-T S-T S-T --- --- --- ---|180000
+1063|pass63|Lê Thị Hiền|Hóa Học|Gò Vấp|4.1|Sinh viên|0901001063|hien63@gmail.com|--T --T --T --T --T --T --T|120000
+1064|pass64|Phạm Trọng Hữu|Tiếng Anh|Phú Nhuận|4.8|Thạc sĩ|0901001064|huu64@gmail.com|S-- S-- S-- --- --- --- ---|260000
+1065|pass65|Hoàng Minh Khang|Ngữ Văn|Tân Bình|4.5|Cao học|0901001065|khang65@gmail.com|--- -C- --T -C- --T --- ---|210000
+1066|pass66|Huỳnh Quốc Khánh|Toán|Tân Phú|4.4|Đại học|0901001066|khanh66@gmail.com|-C- -C- -C- -C- -C- --- ---|160000
+1067|pass67|Vũ Nhật Kỳ|Vật Lý|Bình Tân|5.0|Thạc sĩ|0901001067|ky67@gmail.com|--- --- --- --- --- SCT SCT|300000
+1068|pass68|Đặng Phương Linh|Hóa Học|Nhà Bè|4.2|Sinh viên|0901001068|linh68@gmail.com|--T --T --T --T --T --- ---|130000
+1069|pass69|Bùi Tiến Lộc|Tiếng Anh|Hóc Môn|4.6|Đại học|0901001069|loc69@gmail.com|S-T S-T S-T S-T S-T --- ---|190000
+1070|pass70|Đỗ Tuyết Mai|Toán|Bình Chánh|4.9|Cao học|0901001070|mai70@gmail.com|SCT SCT --- --- --- --- ---|250000
+1071|pass71|Ngô Ngọc Ngân|Vật Lý|Củ Chi|4.3|Sinh viên|0901001071|ngan71@gmail.com|S-- -C- --T --- --- --- ---|140000
+1072|pass72|Lý Cẩm Nhung|Hóa Học|Cần Giờ|4.7|Thạc sĩ|0901001072|nhung72@gmail.com|--- --- --- -C- -C- -C- ---|270000
+1073|pass73|Hồ Tuấn Phát|Tiếng Anh|Quận 1|4.1|Đại học|0901001073|phat73@gmail.com|-C- -C- -C- --- --- --- ---|150000
+1074|pass74|Đinh Thu Phương|Toán|Quận 2|4.8|Cao học|0901001074|phuong74@gmail.com|--T --T --T --T --T --T --T|230000
+1075|pass75|Trương Nhã Quyên|Ngữ Văn|Quận 3|4.5|Sinh viên|0901001075|quyen75@gmail.com|S-- S-- S-- --- --- SCT SCT|160000
+1076|pass76|Mai Thanh Quỳnh|Toán|Quận 4|4.4|Đại học|0901001076|quynh76@gmail.com|--- -C- --T --- -C- --T ---|180000
+1077|pass77|Phan Hoàng Sang|Vật Lý|Quận 5|4.9|Thạc sĩ|0901001077|sang77@gmail.com|SCT SCT SCT --- --- --- ---|290000
+1078|pass78|Châu Thái Sơn|Hóa Học|Quận 6|4.2|Sinh viên|0901001078|son78@gmail.com|--- --- --- --- --- SCT SCT|110000
+1079|pass79|Lương Thanh Thi|Tiếng Anh|Quận 7|4.6|Cao học|0901001079|thi79@gmail.com|S-T S-T S-T --- --- --- ---|210000
+1080|pass80|Lại Minh Thư|Toán|Quận 8|4.7|Đại học|0901001080|thu80@gmail.com|--T --T --T --T --T --- ---|190000
+1081|pass81|Nguyễn Quốc Toản|Vật Lý|Quận 9|4.3|Sinh viên|0901001081|toan81@gmail.com|-C- -C- -C- -C- -C- --- ---|150000
+1082|pass82|Trần Cát Tường|Toán|Quận 10|5.0|Thạc sĩ|0901001082|tuong82@gmail.com|SCT SCT --- --- --- --- ---|300000
+1083|pass83|Lê Thị Uyên|Hóa Học|Quận 11|4.1|Đại học|0901001083|uyen83@gmail.com|--- --- --- -C- -C- -C- ---|160000
+1084|pass84|Phạm Gia Vinh|Tiếng Anh|Quận 12|4.8|Cao học|0901001084|vinh84@gmail.com|S-- S-- S-- --- --- --- ---|240000
+1085|pass85|Hoàng Bích Vy|Ngữ Văn|Bình Thạnh|4.4|Sinh viên|0901001085|vy85@gmail.com|--T --T --T --T --T --T --T|140000
+1086|pass86|Huỳnh Tấn Xuyên|Toán|Thủ Đức|4.6|Đại học|0901001086|xuyen86@gmail.com|S-T S-T S-T S-T S-T --- ---|180000
+1087|pass87|Vũ Hải Yến|Vật Lý|Gò Vấp|4.9|Thạc sĩ|0901001087|yen87@gmail.com|--- --- --- --- --- SCT SCT|280000
+1088|pass88|Đặng Quốc Ân|Hóa Học|Phú Nhuận|4.2|Sinh viên|0901001088|an88@gmail.com|S-- -C- --T --- --- --- ---|120000
+1089|pass89|Bùi Tiến Đạt|Tiếng Anh|Tân Bình|4.7|Cao học|0901001089|dat89@gmail.com|-C- -C- -C- --- --- --- ---|220000
+1090|pass90|Đỗ Phương Thảo|Toán|Tân Phú|4.5|Đại học|0901001090|thao90@gmail.com|--- -C- --T -C- --T --- ---|170000
+1091|pass91|Ngô Ngọc Trinh|Vật Lý|Bình Tân|4.1|Sinh viên|0901001091|trinh91@gmail.com|--T --T --T --T --T --- ---|130000
+1092|pass92|Lý Minh Tâm|Toán|Nhà Bè|4.8|Thạc sĩ|0901001092|tam92@gmail.com|SCT SCT SCT --- --- --- ---|260000
+1093|pass93|Hồ Thanh Thúy|Hóa Học|Hóc Môn|4.3|Đại học|0901001093|thuy93@gmail.com|S-T S-T S-T --- --- --- ---|190000
+1094|pass94|Đinh Trọng Tiến|Tiếng Anh|Bình Chánh|4.6|Cao học|0901001094|tien94@gmail.com|--- --- --- -C- -C- -C- ---|200000
+1095|pass95|Trương Quỳnh Hoa|Ngữ Văn|Củ Chi|4.9|Thạc sĩ|0901001095|hoa95@gmail.com|--T --T --T --T --T --T --T|250000
+1096|pass96|Mai Đức Anh|Toán|Cần Giờ|4.2|Sinh viên|0901001096|anh96@gmail.com|S-- S-- S-- --- --- --- ---|140000
+1097|pass97|Phan Hoàng Nam|Vật Lý|Quận 1|4.5|Đại học|0901001097|nam97@gmail.com|-C- -C- -C- -C- -C- --- ---|170000
+1098|pass98|Châu Mỹ Dung|Hóa Học|Quận 2|4.7|Cao học|0901001098|dung98@gmail.com|--- --- --- --- --- SCT SCT|210000
+1099|pass99|Lương Tấn Tài|Tiếng Anh|Quận 3|4.4|Sinh viên|0901001099|tai99@gmail.com|S-T S-T S-T S-T S-T --- ---|150000
+1100|pass100|Lại Minh Quân|Toán|Quận 4|5.0|Thạc sĩ|0901001100|quan100@gmail.com|SCT SCT --- --- --- --- ---|300000
