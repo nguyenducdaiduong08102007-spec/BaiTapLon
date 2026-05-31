@@ -4,49 +4,38 @@
 #include <stdio.h>
 #include <string.h>
 #include <stdlib.h>
+#include <ctype.h>
 
 #define MAX_RESULTS 150
 
-//Bản màu ANSI mà tụi em sử dụng cho menu mặc dù define nhiều màu nhưng mà menu của của bọn em không dùng hết
-#define RESET       "\033[0m"   // Trả về mặc định
+// Bản màu ANSI
+#define RESET       "\033[0m"   
+#define BLACK       "\033[30m"  
+#define RED         "\033[31m"  
+#define GREEN       "\033[32m"  
+#define YELLOW      "\033[33m"  
+#define BLUE        "\033[34m"  
+#define PURPLE      "\033[35m"  
+#define CYAN        "\033[36m"  
+#define WHITE       "\033[37m"  
 
-// 1. Màu dành cho chữ (Text)
-#define BLACK       "\033[30m"  // Đen
-#define RED         "\033[31m"  // Đỏ
-#define GREEN       "\033[32m"  // Xanh lá
-#define YELLOW      "\033[33m"  // Vàng
-#define BLUE        "\033[34m"  // Xanh dương
-#define PURPLE      "\033[35m"  // Tím
-#define CYAN        "\033[36m"  // Xanh lơ
-#define WHITE       "\033[37m"  // Trắng
+#define B_GRAY      "\033[90m"  
+#define B_RED       "\033[91m"  
+#define B_GREEN     "\033[92m"  
+#define B_YELLOW    "\033[93m"  
+#define B_BLUE      "\033[94m"  
+#define B_PINK      "\033[95m"  
+#define B_CYAN      "\033[96m"  
+#define B_WHITE     "\033[97m"  
+#define B_ORANGE    "\033[38;5;214m"  
 
-// 2. Màu dành cho chữ sáng (Bright Text)
-#define B_GRAY      "\033[90m"  // Xám (Đen sáng)
-#define B_RED       "\033[91m"  // Đỏ chói
-#define B_GREEN     "\033[92m"  // Xanh lá neon
-#define B_YELLOW    "\033[93m"  // Vàng chói
-#define B_BLUE      "\033[94m"  // Xanh dương sáng
-#define B_PINK      "\033[95m"  // Hồng neon
-#define B_CYAN      "\033[96m"  // Xanh lơ sáng
-#define B_WHITE     "\033[97m"  // Trắng tinh
-#define B_ORANGE    "\033[38;5;214m"  // Màu cam chói (Sáng hơn)
+#define BOLD        "\033[1m"   
+#define UNDERLINE   "\033[4m"   
 
-// 3. Màu nền (Background)
-#define BG_RED      "\033[41m"  // Nền đỏ
-#define BG_GREEN    "\033[42m"  // Nền xanh lá
-#define BG_YELLOW   "\033[43m"  // Nền vàng
-#define BG_BLUE     "\033[44m"  // Nền xanh dương
-#define BG_PURPLE   "\033[45m"  // Nền tím
-#define BG_CYAN     "\033[46m"  // Nền xanh lơ
-#define BG_WHITE    "\033[47m"  // Nền trắng
-
-// 4. Hiệu ứng định dạng (Formatting)
-#define BOLD        "\033[1m"   // In đậm
-#define UNDERLINE   "\033[4m"   // Gạch chân
-
-//Khai báo struct
+// STRUCT
 typedef struct {
     int id;
+    char mat_khau[30]; 
     char ten[100];
     char mon_hoc[50];
     char khu_vuc[100];
@@ -58,12 +47,35 @@ typedef struct {
     int hoc_phi;
 } GiaSu;
 
+typedef struct LopHoc {
+    int idLop;
+    char monHoc[50];
+    char diaChi[100];
+    char tenPhuHuynh[50];
+    char sdtPhuHuynh[15];
+    int idGiaSuDay; 
+    int trangThai; 
+    int hocPhi;
+    char yeuCau[200];
+} LopHoc;
+
+typedef struct {
+    int idLich;
+    int idGiaSu;
+    char sdtPhuHuynh[20];
+    char tenPhuHuynh[50];         
+    char thongBaoGiaSu[500];      
+    char thongBaoPhuHuynh[500];  
+    int trangThai;
+    int loaiThongBao;           
+} LichHen;
 typedef struct Node {
     GiaSu data;
     struct Node* next;
-} Node;
+} Node; 
 
-//Biến toàn cục
+
+// Biến toàn cục
 extern Node* head; 
 extern GiaSu* ketQuaHienTai[MAX_RESULTS]; 
 extern int soLuongKetQua;
@@ -72,26 +84,72 @@ extern char danhSachGoiBuoiDay[50][100];
 extern int soLuongGoiBuoiDay;
 
 extern char danhSachTrinhDo[20][50]; 
-extern int soLuongTrinhDo;          
+extern int soLuongTrinhDo; 
 
-// Khai báo hàm xử lý dữ liệu đầu vào
+extern LopHoc danhSachLop[200];
+extern int soLuongLop;
+
+extern LichHen danhSachLich[200];
+extern int soLuongLich;
+
+#define ADMIN_CODE "UTC2_2026" 
+
+//Khai báo hàm
+// 1. NHÓM TIỆN ÍCH & XỬ LÝ CHUỖI (Utils & String)
+// (Chuyên cắt gọt khoảng trắng, chuyển chữ hoa/thường, xử lý Tiếng Việt)
 void xoaKhoangTrangThua(char* str);
 void my_strlwr(char* str);
 int timChuoi(const char* chuoi_goc, const char* chuoi_tim);
 int timKhuVucChuan(const char* chuoi_goc, const char* chuoi_tim);
-int cmpRateGiamDan(const void *a, const void *b);
+void dichMatrixThanhChu(const char* matrix, char* ketQua); 
+void inChuoiUTF8(char* str, int width);                 
+int cmpRateGiamDan(const void *a, const void *b);      
 
-// Quản lý Danh sách liên kết
-void themGoiBuoiDay(char* buoi_day);
-void themTrinhDo(char* trinh_do); // MỚI
+// 2. NHÓM KIỂM TRA ĐẦU VÀO (Validation)
+// (Cảnh sát gác cổng: Chặn người dùng nhập bậy bạ, nhập chữ vào số...)
+int laSDTHopLe(const char* sdt);
+int TenHopLe(const char* ten);
+
+// 3. NHÓM ĐIỀU HƯỚNG & NHẬP LIỆU GIAO DIỆN (Input & Control)
+// (Quản lý các menu chọn số, phân trang, chống trôi màn hình)
+int nhapLuaChonThanhCong(int min, int max);
+int nhapLuaChonTrang(int min, int max);
+int nhapIDGiaSuHopLe();
+int nhapIDAdminHopLe();
+void nhapTenHopLe_UI(char* ketQua, const char* loiNhac);
+
+// 4. NHÓM ĐỌC/GHI FILE & QUẢN LÝ BỘ NHỚ (File I/O & Memory)
+// (Giao tiếp với Database dạng .txt và Danh sách liên kết)
 Node* taoNode(GiaSu gs);
 void themVaoCuoi(GiaSu gs);
 void giaiPhongDanhSach();
-int docFile();
+int docFile();                    // Đọc giasu.txt
+void luuFileGiaSuTong();          // Ghi giasu.txt
+void docFileLopVaLich();          // Đọc lophoc.txt và lichhen.txt
+void luuFileLopVaLich();          // Ghi lophoc.txt và lichhen.txt
+void themGoiBuoiDay(char* buoi_day); // Đọc phụ trợ (từ khóa)
+void themTrinhDo(char* trinh_do);    // Đọc phụ trợ (từ khóa)
 
-void inBangGiaSu(GiaSu* arr[], int n);
-int chucNangLoc();
+// 5. NHÓM NGHIỆP VỤ GIA SƯ (Tutor Logic)
+// (Các tính năng chính của tài khoản Gia sư và Admin quản lý GS)
 void dangKyGiaSu();
-int xemChiTietGiaSu();
+GiaSu* dangNhapGiaSu(int id, const char* mat_khau);
+void capNhatThongTinGiaSu(GiaSu* gs_goc, GiaSu data_moi);
+int xoaGiaSuTheoId(int id, const char* ma_admin);
 
-#endif
+// 6. NHÓM NGHIỆP VỤ LỚP HỌC & ĐẶT LỊCH (Class & Booking Logic)
+// (Quy trình: Tạo lớp -> Xin nhận -> Đặt lịch trực tiếp -> Duyệt đơn)
+void taoLopHocMoi();
+void giaSuXemVaNhanLop(int idGiaSu);
+void phuHuynhDatLichTruocTiep(GiaSu* gs);
+void xemThongBaoPhuHuynh();
+void xemThongBaoGiaSu(int idGiaSu);
+
+// 7. NHÓM GIAO DIỆN & HIỂN THỊ (UI / Display)
+// (Render menu, in bảng biểu ra màn hình)
+void inBangGiaSu(GiaSu* arr[], int n);
+void inBangGiaSuAdmin(GiaSu* arr[], int n);
+int xemChiTietGiaSu(GiaSu* arr[], int n); 
+int chucNangLoc();
+void giaoDienCapNhatHoSo(GiaSu* gs_Logged);
+#endif 
